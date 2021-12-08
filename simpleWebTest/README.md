@@ -18,7 +18,8 @@ These scripts do a simple functional test and load test to duckduckgo search box
   * fake-headers 1.0.2
 
 #demo and ouput:
-
+![image](https://github.com/k-eeer/Testing/blob/main/simpleWebTest/output/demo.png)
+![image](https://github.com/k-eeer/Testing/blob/main/simpleWebTest/output/responseTimes(ms).png)
 
 
 
