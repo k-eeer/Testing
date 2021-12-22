@@ -1,4 +1,4 @@
-#testCalculator-description and usage:
+# testCalculator-description and usage:
 
 There are two simple test to the calculator android app: functional test with appium, and a load test with MonkeyRunner of Android Studio.
 
@@ -13,7 +13,7 @@ Second part is loading test, randomly check for user event 10 times.
     #press the pop-up appium "start server" button to start appium.
 
 
-#environment and prerequisites:
+# environment and prerequisites:
 
   * Ubuntu 20.04 
   * Android Studio 3.5.2
@@ -21,7 +21,7 @@ Second part is loading test, randomly check for user event 10 times.
   * Appium 1.15.1
   * Android Debug Bridge (adb)1.0.39
 
-#demo and ouput:
-![image](https://github.com/k-eeer/appiumTest/blob/master/appiumTestInPython.png)
+# demo and ouput:
+![image](https://github.com/k-eeer/theTests/blob/main/simpleAndroidAppTest/output/demoAppTest.png)
 
 As the output of demo, two test were passed.
