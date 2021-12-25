@@ -24,4 +24,4 @@ Second part is loading test, randomly check for user event 10 times.
 # demo and ouput:
 ![image](https://github.com/k-eeer/theTests/blob/main/simpleAndroidAppTest/output/demoAppTest.png)
 
-As the output of demo, two test were passed.
+As the output of demo, all tests was passed.
