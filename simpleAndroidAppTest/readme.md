@@ -1,6 +1,6 @@
 # testCalculator-description and usage:
 
-There are two simple test to the calculator android app: functional test with appium, and a load test with MonkeyRunner of Android Studio.
+There are two simple tests to the calculator android app: functional test with appium, and a load test with MonkeyRunner of Android Studio.
 
 First part is functional test, which tend to know whether 9+9=18, and save snapshoot of result.
 Second part is loading test, randomly check for user event 10 times.
