@@ -20,6 +20,6 @@ The script will generates a simple REST API by Flask and test it. Including 1) a
 
 
 # demo and ouput:
-![image]()
+![image](https://github.com/k-eeer/theTests/blob/main/simpleRestApiTest/output/demoRestApiTest.png)
 
 As the output of demo, two tests were passed.
