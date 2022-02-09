@@ -1,4 +1,4 @@
-# testCalculator-description and usage:
+# testRestApi-description and usage:
 
 The script will generates a simple REST API by Flask and test it. Including 1) a functional test by Pytest and requests 2)a Performance test(Load test) by Locust. 
 
