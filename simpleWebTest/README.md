@@ -1,13 +1,12 @@
-# testSearchKeyword-description and usage:
-These scripts do a simple functional test and load test to duckduckgo search box, with pytest, Selenium and Locust.
+# 測試網頁搜尋關鍵字功能-描述及用法:
+testSearchKeyword.sh 為主要腳本，本腳本將對duckduckgo.com進行關鍵字搜尋的功能測試（使用pytest及Selenium），以及表現測試中的負荷測試（使用Locust）
 
 
 
     $sh testSearchKeyword.sh
-    #then input the number of users for load test.
+    #後續請輸入此次負荷測試欲模擬的總人數以及每秒欲增加的人數.
 
-
-# environment and prerequisites:
+# 運行環境:
 
   * Ubuntu 20.04 
   * pytest 5.4.3
@@ -17,10 +16,10 @@ These scripts do a simple functional test and load test to duckduckgo search box
   * locust 1.1.1
   * fake-headers 1.0.2
 
-# demo and ouput:
+# 實際可能輸出:
 ![image](https://github.com/k-eeer/Testing/blob/main/simpleWebTest/output/demo.png)
 ![image](https://github.com/k-eeer/Testing/blob/main/simpleWebTest/output/responseTimes(ms).png)
-
+由最上圖知，功能測試通過;且顯示負荷測試模擬使用人數50人（每秒增加2人）的條件下，server每秒可接受的請求，以及中位數反應時間，95%反應時間，詳細結果檔案儲存位置。
 
 
 
