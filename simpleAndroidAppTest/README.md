@@ -1,19 +1,12 @@
-# testCalculator-description and usage:
+# 測試計算機 Android APP--描述及用法:
 
-There are two simple tests to the calculator android app: functional test with appium, and a load test with MonkeyRunner of Android Studio.
-
-First part is functional test, which tend to know whether 9+9=18, and save snapshoot of result.
-Second part is loading test, randomly check for user event 10 times.
-
-
-
-    
+testCalculator.sh為主要腳本。本腳本將對一安裝在模擬機上的計算機APP進行 1)功能測試-測試 9+9是否為18,並將結果截圖儲存,以Appium 完成;  2)表現測試（此為負荷測試)-隨機進行10次使用者可能行為，以Android Studio中的MonkeyRunner完成。
 
     $sh testCalculator.sh
-    #press the pop-up appium "start server" button to start appium.
+    #後續需按下Appium視窗中start server以開始Appium.
 
 
-# environment and prerequisites:
+# 運行環境:
 
   * Ubuntu 20.04 
   * Android Studio 3.5.2
@@ -21,7 +14,7 @@ Second part is loading test, randomly check for user event 10 times.
   * Appium 1.15.1
   * Android Debug Bridge (adb)1.0.39
 
-# demo and ouput:
+# 實際可能輸出:
 ![image](https://github.com/k-eeer/theTests/blob/main/simpleAndroidAppTest/output/demoAppTest.png)
 
-As the output of demo, all tests was passed.
+結果如上圖所示.兩個測試均通過
