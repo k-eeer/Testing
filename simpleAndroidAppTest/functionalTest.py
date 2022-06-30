@@ -1,6 +1,9 @@
+#利用appium為info.woodsmall.calculator.apk進行簡單加法測試，並且將最後結果畫面截圖儲存
+
 from appium import webdriver
 from os.path import expanduser
 import time,sys
+
 
 desired_caps = {
 
