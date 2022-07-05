@@ -16,7 +16,7 @@ testSearchKeyword.sh 為主要腳本，本腳本將對duckduckgo.com進行關鍵
   * locust 1.1.1
   * fake-headers 1.0.2
 
-# 實際可能輸出:
+# 實際結果:
 ![image](https://github.com/k-eeer/Testing/blob/main/simpleWebTest/output/demo.png)
 ![image](https://github.com/k-eeer/Testing/blob/main/simpleWebTest/output/responseTimes(ms).png)
 由最上圖知，功能測試通過;且顯示負荷測試模擬使用人數50人（每秒增加2人）的條件下，server每秒可接受的請求，以及中位數反應時間，95%反應時間，詳細結果檔案儲存位置。
