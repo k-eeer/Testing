@@ -14,7 +14,7 @@ testCalculator.sh為主要腳本。本腳本將對一安裝在模擬機上的計
   * Appium 1.15.1
   * Android Debug Bridge (adb)1.0.39
 
-# 實際可能輸出:
+# 實際結果:
 ![image](https://github.com/k-eeer/theTests/blob/main/simpleAndroidAppTest/output/demoAppTest.png)
 
 結果如上圖所示.兩個測試均通過
