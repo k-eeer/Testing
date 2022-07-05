@@ -16,7 +16,7 @@ apiTest.sh 為主要腳本。本腳本將以Flask產生一簡單REST API並且�
 
 
 
-# 實際可能輸出:
+# 實際結果:
 ![image](https://github.com/k-eeer/theTests/blob/main/simpleRestApiTest/output/demoRestApiTest.png)
 ![image](https://github.com/k-eeer/theTests/blob/main/simpleRestApiTest/output/responseTimes(ms).png)
 
